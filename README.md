@@ -12,6 +12,11 @@ ReadBright is a high-fidelity, mobile-first web application designed to screen c
 
 Rather than clinical, intimidating tests, children embark on an exciting journey through magical worlds, collecting rewards and awakening their reading "superpowers," all while generating accurate, actionable reporting for parents and educators.
 
+## 🌐 Live Demo
+
+* **Frontend (Application)**: [Play ReadBright](https://readbright-kco1lqhfn-hrishis-projects-3606f74b.vercel.app/)
+* **Backend (API Docs)**: [Swagger API](https://readbright.onrender.com/docs)
+
 ## ✨ Key Features
 
 - **Age-Adapted Challenge Tracks**: Dynamically calibrates content complexity, layout density, and pacing for three distinct age tracks: 5–8 years, 8–10 years, and 11–13 years.
