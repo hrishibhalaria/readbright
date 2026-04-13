@@ -83,6 +83,15 @@ def health_check():
 
 
 # ============================================
+# ROOT ENDPOINT
+# ============================================
+@app.get("/", tags=["Health"])
+def read_root():
+    """Root endpoint to verify API is active."""
+    return {"message": "ReadBright Screening API is connected and running! 🚀", "status": "online"}
+
+
+# ============================================
 # POST /screening/submit
 # Core endpoint — saves a complete screening
 # ============================================
