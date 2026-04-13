@@ -22,9 +22,9 @@ from sqlalchemy.orm import Session
 from datetime import datetime, timezone
 import logging
 
-from .database import get_db, init_db, engine, Base
-from .models import Child, ScreeningSession, TaskResult
-from .schemas import (
+from database import get_db, init_db, engine, Base
+from models import Child, ScreeningSession, TaskResult
+from schemas import (
     ScreeningSubmitRequest,
     ScreeningSubmitResponse,
     TaskResultResponse,
